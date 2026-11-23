@@ -1,12 +1,22 @@
-# `game-api` (Stratul de Contracte 
+<div align="center">
+  <img src="../assets/game-api.jpg" alt="GraciaRevive Game API" width="350" />
 
-Reprezintă granița arhitecturală dintre nucleul serverului și logica dinamică a jocului.
+  <h1>Stratul de Contracte</h1>
+
+  <p>
+    Reprezintă granița arhitecturală dintre nucleul serverului și logica dinamică a jocului.
+  </p>
+</div>
+
+---
 
 ## Responsabilități
-* Definește interfețele pentru entitățile lumii (`Player`, `Npc`, `Item`).
-* Stabilește sistemul de evenimente (*Event Listeners*).
+
+* Definește interfețele pentru entitățile lumii: `Player`, `Npc` și `Item`.
+* Definește sistemul de evenimente și ascultătorii de evenimente (*Event Listeners*).
 * Definește contractele pentru AI și mecanismele de interacțiune cu quest-urile.
 
-## Beneficii Arhitecturale
-* Permite refactorizarea completă a motorului (`game-engine`) fără a afecta scripturile din `game-gameplay`.
-* Oferă o decuplare clară între implementarea tehnică și regulile de gameplay.
+## Beneficii arhitecturale
+
+* Permite refactorizarea motorului (`game-engine`) fără a afecta scripturile din `game-gameplay`.
+* Separă implementarea tehnică de regulile de gameplay.

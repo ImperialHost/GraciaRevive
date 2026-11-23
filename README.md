@@ -1,17 +1,23 @@
-# GraciaRevive
+<div align="center">
 
-🚧 **Status:** Pre-Alpha | 💻 **IDE:** Eclipse | ☕ **Java:** 21 | 🗄️ **DB:** MariaDB / MySQL | ⚖️ **License:** GPLv3
+  <img src="./assets/banner.jpg" alt="GraciaRevive Banner" width="100%" />
 
-[![Status](https://shields.io)](https://github.com)
-[![IDE](https://shields.io)](https://eclipseide.org)
-[![Java](https://shields.io)](https://openjdk.org)
-[![MariaDB](https://shields.io)](https://mariadb.org)
-[![MySQL](https://shields.io)](https://mysql.com)
-[![License: GPL v3](https://shields.io)](https://gnu.org)
+  <br /><br />
 
-Emulator modern și modular pentru **Lineage II: Gracia Final**, construit pe o arhitectură decuplată (*Microkernel Core*) și optimizat cu facilitățile din **Java 21**.
+  [![Status](https://img.shields.io/badge/status-Pre--Alpha-orange)](https://github.com/ImperialHost/GraciaRevive)
+  [![IDE](https://img.shields.io/badge/IDE-Eclipse-2C2255)](https://eclipseide.org/)
+  [![Build](https://img.shields.io/badge/build-Apache%20Ant-A81C7D)](https://ant.apache.org/)
+  [![Java](https://img.shields.io/badge/Java-21-ED8B00)](https://openjdk.org/)
+  [![Database](https://img.shields.io/badge/Database-MariaDB%20%7C%20MySQL-003545)](https://mariadb.org/)
+  [![License](https://img.shields.io/badge/license-GPLv3-blue)](https://www.gnu.org/licenses/gpl-3.0.html)
 
----
+  <p>
+    <strong>Emulator modern și modular pentru Lineage II: Gracia Final</strong><br />
+    Construit pe o arhitectură decuplată (<em>Microkernel Core</em>) și optimizat cu
+    facilitățile din <strong>Java 21</strong>.
+  </p>
+
+</div>
 
 ## 1. Structura Proiectului (Monorepo)
 
